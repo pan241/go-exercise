@@ -1,4 +1,4 @@
-package main
+package str
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
+func Usage() {
 	// go中string是常量，不能修改
 	var s string = "Hello World"
 	// b := []byte(s)
